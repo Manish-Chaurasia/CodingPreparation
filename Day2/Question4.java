@@ -14,9 +14,7 @@ class Question4{
 		for(int i=0; i<arr.length;i++){
 			
 			sum = sum + arr[i];
-			//if(arr[i] > n){
-				//n = arr[i];
-			//}
+			
 		}
 		return (n*(n+1)/2) -  sum ;
 	}
